@@ -1,5 +1,12 @@
+lsb (3.2-23.1canaima0) unstable; urgency=low
+
+  * Versión Inicial para Canaima GNU/Linux
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 01 Dec 2010 10:20:51 -0430
+
 lsb (3.2-23.1) unstable; urgency=low
 
+  [ Jakub Wilk ]
   * Non-maintainer upload.
   * Fix dependencies of lsb-core on kfreebsd-* and hurd-* to make the
     package installable. Thanks to Aurelien Jarno for the patch and the
@@ -9,7 +16,7 @@ lsb (3.2-23.1) unstable; urgency=low
     (Closes: #570586)
   * Don't make lsb-core conflict with python (>= 2.6).
 
- -- Jakub Wilk <jwilk@debian.org>  Sun, 21 Mar 2010 15:39:47 +0100
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 01 Dec 2010 10:20:17 -0430
 
 lsb (3.2-23) unstable; urgency=low
 
