@@ -1,3 +1,9 @@
+lsb (3.2-23.2canaima1) unstable; urgency=low
+
+  * [419c69c] Corrigiendo detalles menores
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Mon, 07 Feb 2011 13:24:36 -0430
+
 lsb (3.2-23.1canaima0) unstable; urgency=low
 
   * Versión Inicial para Canaima GNU/Linux
