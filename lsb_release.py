@@ -30,7 +30,7 @@ import re
 RELEASE_CODENAME_LOOKUP = {
     '2.1' : 'aponwao',
     '3.0' : 'roraima',
-    '3.1' : 'auyantepuy',
+    '4.0' : 'auyantepuy',
     }
 
 TESTING_CODENAME = 'unknown.new.testing'
