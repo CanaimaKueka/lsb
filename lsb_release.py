@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Modulo de deteccion de modulos LSB para Canaima, basado en:
+# Modulo de deteccion de modulos LSB para Canaima 3.0, basado en:
 
 # LSB release detection module for Debian
 # (C) 2005-09 Chris Lawrence <lawrencc@debian.org>
