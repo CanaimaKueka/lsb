@@ -1,3 +1,9 @@
+lsb (3.2-23.3canaima2) unstable; urgency=low
+
+  * [8194df5] Bump
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 08 Feb 2011 04:07:44 -0430
+
 lsb (3.2-23.2canaima1) unstable; urgency=low
 
   * [419c69c] Corrigiendo detalles menores
