@@ -1,3 +1,9 @@
+lsb (3.2-23.3canaima3) unstable; urgency=low
+
+  * [9f04fe0] Agregando formato 3.0 (quilt)
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 23 Dec 2011 12:57:09 -0430
+
 lsb (3.2-23.3canaima2) unstable; urgency=low
 
   * [8194df5] Bump
