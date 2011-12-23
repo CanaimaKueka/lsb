@@ -1,8 +1,14 @@
 lsb (3.2-23.3canaima2) unstable; urgency=low
 
   * [8194df5] Bump
+  * [ff7b5ee] Importando código de upstream (debian) para la versión
+    3.2-23.2squeeze1
+  * [f2ce1c9] * Creando parche para modificar el lsb_release.py para
+    Canaima
+  * [bf79cde] Removiendo residuos de parches
+  * [7eb7ca6] Corrigiendo uploaders
 
- -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 08 Feb 2011 04:07:44 -0430
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 23 Dec 2011 12:54:04 -0430
 
 lsb (3.2-23.2canaima1) unstable; urgency=low
 
