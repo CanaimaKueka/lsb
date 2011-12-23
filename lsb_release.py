@@ -1,7 +1,5 @@
 #!/usr/bin/python
 
-# Modulo de deteccion de modulos LSB para Canaima 3.0, basado en:
-
 # LSB release detection module for Debian
 # (C) 2005-09 Chris Lawrence <lawrencc@debian.org>
 
@@ -28,9 +26,17 @@ import re
 # This should really be included in apt-cache policy output... it is already
 # in the Release file...
 RELEASE_CODENAME_LOOKUP = {
-    '2.1' : 'aponwao',
-    '3.0' : 'roraima',
-    '4.0' : 'auyantepuy',
+    '1.1' : 'buzz',
+    '1.2' : 'rex',
+    '1.3' : 'bo',
+    '2.0' : 'hamm',
+    '2.1' : 'slink',
+    '2.2' : 'potato',
+    '3.0' : 'woody',
+    '3.1' : 'sarge',
+    '4.0' : 'etch',
+    '5.0' : 'lenny',
+    '6.0' : 'squeeze',
     }
 
 TESTING_CODENAME = 'unknown.new.testing'
@@ -140,9 +146,9 @@ def parse_apt_policy():
 
     return data
 
-def guess_release_from_apt(origin='Canaima', component='main',
+def guess_release_from_apt(origin='Debian', component='main',
                            ignoresuites=('experimental'),
-                           label='Canaima'):
+                           label='Debian'):
     releases = parse_apt_policy()
 
     if not releases:
@@ -167,7 +173,7 @@ def guess_release_from_apt(origin='Canaima', component='main',
     return releases[0][1]
 
 def guess_debian_release():
-    distinfo = {'ID' : 'Canaima'}
+    distinfo = {'ID' : 'Debian'}
 
     kern = os.uname()[0]
     if kern in ('Linux', 'Hurd', 'NetBSD'):
@@ -179,15 +185,15 @@ def guess_debian_release():
 
     distinfo['DESCRIPTION'] = '%(ID)s %(OS)s' % distinfo
 
-    if os.path.exists('/etc/canaima_version'):
+    if os.path.exists('/etc/debian_version'):
         try:
-            release = open('/etc/canaima_version').read().strip()
+            release = open('/etc/debian_version').read().strip()
         except IOError, msg:
-            print >> sys.stderr, 'Unable to open /etc/canaima_version:', str(msg)
+            print >> sys.stderr, 'Unable to open /etc/debian_version:', str(msg)
             release = 'unknown'
             
         if not release[0:1].isalpha():
-            # /etc/canaima_version should be numeric
+            # /etc/debian_version should be numeric
             codename = lookup_codename(release, 'n/a')
             distinfo.update({ 'RELEASE' : release, 'CODENAME' : codename })
         elif release.endswith('/sid'):
@@ -199,8 +205,8 @@ def guess_debian_release():
             distinfo['RELEASE'] = release
 
     # Only use apt information if we did not get the proper information
-    # from /etc/canaima_version or if we don't have a codename
-    # (which will happen if /etc/canaima_version does not contain a
+    # from /etc/debian_version or if we don't have a codename
+    # (which will happen if /etc/debian_version does not contain a
     # number but some text like 'testing/unstable' or 'lenny/sid')
     #
     # This is slightly faster and less error prone in case the user
