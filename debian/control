@@ -12,7 +12,7 @@ Vcs-Browser: http://gitorious.org/canaima-gnu-linux/lsb/trees/master
 
 Package: lsb-core
 Architecture: any
-Depends: lsb-release, ${glibc}, libz1, libncurses5, libpam0g, exim4 | mail-transport-agent, at, bc, binutils, bsdmainutils, bsdutils, cpio, cron, ed, file, libc6-dev | libc-dev, locales, cups-bsd | lpr, lprng | cups-client, m4, mailx | mailutils, make, man-db, mawk | gawk, ncurses-term, passwd, patch, pax, procps, psmisc, rsync, alien (>= 8.36), ${python:Depends}, ${misc:Depends}, ${depends}, lsb-base, time
+Depends: lsb-release, ${glibc}, libz1, libncurses5, libpam0g, exim4 | mail-transport-agent, at, bc, binutils, bsdmainutils, bsdutils (>= 1:2.17.2), cpio, cron, ed, file, libc6-dev | libc-dev, locales, cups-bsd | lpr, lprng | cups-client, m4, mailutils | mailx, make, man-db, mawk | gawk, ncurses-term, passwd, patch, pax, procps, psmisc, rsync, alien (>= 8.36), ${python:Depends}, ${misc:Depends}, ${depends}, lsb-base, time
 Provides: lsb-core-noarch, ${provides}
 Conflicts: lsb (<< 2.0-2)
 Replaces: lsb (<< 2.0-2)
@@ -209,7 +209,7 @@ Description: Linux Standard Base 3.2 support package
 
 Package: lsb-base
 Architecture: all
-Depends: sed, ncurses-bin, ${misc:Depends}
+Depends: sed (>= 4.2.1), ncurses-bin (>= 5.7), ${misc:Depends}
 Replaces: lsb-core (<< 2.0-6), lsb (<< 2.0-6)
 Conflicts: lsb-core (<< 2.0-6), lsb (<< 2.0-6)
 Priority: required
