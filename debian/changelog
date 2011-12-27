@@ -1,3 +1,10 @@
+lsb (3.2-23.3canaima4) unstable; urgency=low
+
+  * [2809136] Agregando versiones a las dependencias de paquetes
+    esenciales
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 27 Dec 2011 18:56:23 -0430
+
 lsb (3.2-23.3canaima3) unstable; urgency=low
 
   * [9f04fe0] Agregando formato 3.0 (quilt)
