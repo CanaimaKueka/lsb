@@ -1,3 +1,13 @@
+lsb (4.1+Debian8Canaima1) unstable; urgency=low
+
+  * [68288d5] Importando versión 4.1+Debian8 de Upstream
+  * [4236f02] Agregando .gitignore
+  * [559ea5f] Agregando parches para cambiar el nombre a Canaima
+  * [98923ed] Saltando el proceso de pruebas para evitar errores de empaquetado
+  * [42cdfbc] Agregando a Franj como uploader
+
+ -- Erick Birbe <erickcion@gmail.com>  Wed, 17 Apr 2013 10:37:25 -0430
+
 lsb (3.2-23.3canaima4) unstable; urgency=low
 
   * [2809136] Agregando versiones a las dependencias de paquetes
