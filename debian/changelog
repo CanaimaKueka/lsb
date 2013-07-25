@@ -1,8 +1,11 @@
 lsb (4.1+Debian8+deb7u1Canaima1) stable; urgency=low
 
-  * UNRELEASED
+  [ Francisco Javier Vásquez Guerrero ]
+  * [6ec7123] agregando parches e iniciando versionamiento
 
- -- francisco vasquez <franj@franj.cnti.gob.ve>  Thu, 25 Jul 2013 11:14:09 -0430
+  [ francisco vasquez ]
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Thu, 25 Jul 2013 11:18:54 -0430
 
 lsb (4.1+Debian8+deb7u1) stable; urgency=low
 
