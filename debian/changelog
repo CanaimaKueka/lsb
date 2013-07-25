@@ -1,3 +1,9 @@
+lsb (4.1+Debian8+deb7u1Canaima1) stable; urgency=low
+
+  * UNRELEASED
+
+ -- francisco vasquez <franj@franj.cnti.gob.ve>  Thu, 25 Jul 2013 11:14:09 -0430
+
 lsb (4.1+Debian8+deb7u1) stable; urgency=low
 
   * Fix lsb_release to correctly work with stable release updates
