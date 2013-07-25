@@ -5,4 +5,3 @@ A quickie TODO list for lsb*:
 * Only build lsb-* for LSB architectures in Debian.
 * Make lsb stuff available in a Python package.
 *
-*

@@ -1,17 +1,20 @@
 Source: lsb
 Section: misc
 Priority: extra
-Maintainer: Debian LSB Team <debian-lsb@lists.debian.org>
-Uploaders: Didier Raboud <odyx@debian.org>, Jeff Licquia <licquia@debian.org>
+Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
+Uploaders: Francisco Vásquez <franjvasquezg@gmail.com>,
+ Erick Birbe <erickcion@gmail.com>,
+ Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>
 Build-Depends: debhelper (>> 7.0.50~),
  po-debconf (>= 0.5.0),
  dpkg-dev (>= 1.10),
  python-all-dev (>= 2.6.6-6~),
 X-Python-Version: >= 2.6
 Standards-Version: 3.9.3
-Homepage: http://www.linuxfoundation.org/collaborate/workgroups/lsb
-Vcs-Git: git://anonscm.debian.org/collab-maint/lsb.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/lsb.git
+Homepage: http://canaima.softwarelibre.gob.ve/
+Vcs-Git: git://gitorious.org/canaima-gnu-linux/lsb.git
+Vcs-Browser: http://gitorious.org/canaima-gnu-linux/lsb/trees/master
+
 
 Package: lsb-core
 Architecture: any
