@@ -1,3 +1,35 @@
+lsb (4.1+Debian8+deb7u1Canaima1+1) stable; urgency=low
+
+  [ Luis Alejandro Martínez Faneyth ]
+  * [ca2b0c6] Versión Inicial para Canaima GNU/Linux
+  * [c53fbed] Nueva versión
+  * [419c69c] Corrigiendo detalles menores
+  * [e7a795d] Nueva versión
+  * [8194df5] Bump
+  * [1157ac9] Nueva versión
+  * [ff7b5ee] Importando código de upstream (debian) para la versión 3.2-23.2squeeze1
+  * [f2ce1c9] * Creando parche para modificar el lsb_release.py para Canaima
+  * [bf79cde] Removiendo residuos de parches
+  * [7eb7ca6] Corrigiendo uploaders
+  * [6d6f9e1] Nueva versión del paquete (3.2-23.3canaima2)
+  * [9f04fe0] Agregando formato 3.0 (quilt)
+  * [b8eaebd] Nueva versión del paquete (3.2-23.3canaima2)
+  * [2809136] Agregando versiones a las dependencias de paquetes esenciales
+  * [c8a93fb] Nueva versión del paquete (3.2-23.3canaima3)
+
+  [ Erick Birbe ]
+  * [68288d5] Importando versión 4.1+Debian8 de Upstream
+  * [4236f02] Agregando .gitignore
+  * [559ea5f] Agregando parches para cambiar el nombre a Canaima
+  * [98923ed] Saltando el proceso de pruebas para evitar errores de empaquetado
+  * [42cdfbc] Agregando a Franj como uploader
+  * [5a9e2e1] Update changelog for 4.1+Debian8Canaima1 release
+
+  [ francisco vasquez ]
+  * [98f4b83] lsb para canaima 4 beta
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 30 Jul 2013 15:17:59 -0430
+
 lsb (4.1+Debian8+deb7u1Canaima1) stable; urgency=low
 
   [ Francisco Javier Vásquez Guerrero ]
