@@ -1,7 +1,7 @@
 Index: lsb/lsb_release.py
 ===================================================================
---- lsb.orig/lsb_release.py	2013-04-16 17:38:14.000000000 -0430
-+++ lsb/lsb_release.py	2013-04-16 17:51:24.000000000 -0430
+--- lsb.orig/lsb_release.py	2013-07-30 14:35:30.908957260 -0430
++++ lsb/lsb_release.py	2013-07-30 14:35:30.860957257 -0430
 @@ -30,18 +30,12 @@
  # This should really be included in apt-cache policy output... it is already
  # in the Release file...
@@ -48,7 +48,7 @@ Index: lsb/lsb_release.py
  
      kern = os.uname()[0]
      if kern in ('Linux', 'Hurd', 'NetBSD'):
-@@ -265,7 +259,7 @@
+@@ -265,17 +259,17 @@
  
      distinfo['DESCRIPTION'] = '%(ID)s %(OS)s' % distinfo
  
@@ -56,8 +56,12 @@ Index: lsb/lsb_release.py
 +    etc_debian_version = os.environ.get('LSB_ETC_DEBIAN_VERSION','/etc/canaima_version')
      if os.path.exists(etc_debian_version):
          try:
-             with open(etc_debian_version) as debian_version:
-@@ -275,7 +269,7 @@
+-            with open(etc_debian_version) as debian_version:
+-                release = debian_version.read().strip()
++            with open(etc_debian_version) as canaima_version:
++                release = canaima_version.read().strip()
+         except IOError as msg:
+             print('Unable to open ' + etc_debian_version + ':', str(msg), file=sys.stderr)
              release = 'unknown'
              
          if not release[0:1].isalpha():
