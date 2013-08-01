@@ -108,11 +108,7 @@ lsb (3.2-23.1) unstable; urgency=low
     (Closes: #570586)
   * Don't make lsb-core conflict with python (>= 2.6).
 
-<<<<<<< HEAD
  -- Jakub Wilk <jwilk@debian.org>  Sun, 21 Mar 2010 15:39:47 +0100
-=======
- -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 01 Dec 2010 10:20:17 -0430
->>>>>>> 5a9e2e18a28f1acb48388b9b0878f7ec2b05698f
 
 lsb (3.2-23) unstable; urgency=low
 
@@ -1079,8 +1075,4 @@ lsb (1.1.0-1) unstable; urgency=low
 
   * Initial Release.  (Closes: #134658)
 
-<<<<<<< HEAD
  -- Chris Lawrence <lawrencc@debian.org>  Sun, 17 Feb 2002 14:07:32 -0600
-=======
- -- Chris Lawrence <lawrencc@debian.org>  Sun, 17 Feb 2002 14:07:32 -0600
->>>>>>> 5a9e2e18a28f1acb48388b9b0878f7ec2b05698f
