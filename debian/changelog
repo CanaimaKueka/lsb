@@ -1,3 +1,13 @@
+lsb (4.1+Debian8+deb7u1Canaima2) stable; urgency=low
+
+  [ Francisco Javier Vásquez Guerrero ]
+  * [0781770] reempaquetando
+
+  [ Carlos Espinoza ]
+  * [c70d8ff] Cambiando formato del paquete fuente a 3.0(quilt).
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Thu, 01 Aug 2013 10:37:08 -0430
+
 lsb (4.1+Debian8+deb7u1Canaima1+1) stable; urgency=low
 
   [ Luis Alejandro Martínez Faneyth ]
