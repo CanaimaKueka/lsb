@@ -5,6 +5,7 @@ lsb (4.1+Debian8+deb7u1Canaima2) stable; urgency=low
 
   [ Carlos Espinoza ]
   * [c70d8ff] Cambiando formato del paquete fuente a 3.0(quilt).
+  * [43e660b] Borrando archivos de construcción.
 
  -- Carlos Espinoza <carlosarmikhael@gmail.com>  Thu, 01 Aug 2013 10:37:08 -0430
 
